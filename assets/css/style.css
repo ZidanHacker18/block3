@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rectangle-size {
+  width: 8%;
+  margin-left: 80px;
+  margin-bottom: 22px;
+}
+.text-1 {
+  padding: 15px 0px 15px 100px;
+  margin-top: -110px;
+}
+.text-2 {
+  padding: 0px 100px 20px 0px;
+  text-align: right;
+  margin-top: -17px;
+}
+.rectangle-size-2 {
+  width: 15%;
+  float: right;
+}
+h2 {
+    font-weight: 400;
+    font-size: 33px;
+    font-family: 'PT Sans Narrow';
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.img-all {
+    width: 55%;
+    height: 80%;
+    background-color: rgba(216, 243, 234, 1);
+    aspect-ratio: 16/9;
+    border: transparent;
+    border-radius: 50%;
+    padding: 10px;     
+}
+.img-all:hover {
+  background-color: #3df74c;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.row-gap-15px {
+    row-gap: 10px;
+}
+h3 {
+    font-weight: 400;
+    font-size: 26px;
+    font-family: 'PT Sans Narrow';
+}
+p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    font-family: 'PT Sans Narrow';
+    color: #393939;
+}
+.mg-left-minus {
+  margin-left: -180px;
+}
+  .container {
+    display: grid;
+    justify-content: center;
+    column-gap: 80px;
+    grid-template-columns: auto auto;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 33px;
+    font-family: 'PT Sans Narrow';
+    margin-bottom: 5px;
+
+  }
+  ul {
+    
+    margin-left: 25px;
+    margin-bottom: 5px;
+  }
+  li {
+    list-style-type: circle;
+  }
+  li {
+    font-family: 'PT Sans Narrow';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #393939;
+  }
+  .img-block {
+     width: 100%;
+     height: 100%;
+     width: 400px;
+     height: 300px;
+  }
+  .flex {
+    display: flex;
+  }
+  .color-h1 {
+    color: rgba(59, 179, 114, 1);
+  }
+  .btn1 {
+    background: #3BB372;
+    border: transparent;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 73% 0, 100% 100%, 0% 100%);
+    padding-right: 10px;
+    margin-right: -10px;
+    border-end-end-radius: 10px;
+  }
+  .btn2 {
+    border: 2px solid #398495;
+    background-color: white;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 26% 100%);
+    padding-left: 10px;
+    margin-right: -10px;
+    border-end-start-radius: 10px;
+  }
+  .text-font-white {
+    color: white;
+    font-family: 'Mplus 1p';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px 12px; 
+ }
+  .text-font-black {
+    font-family: 'Mplus 1p';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px 12px; 
+  }
